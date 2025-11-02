@@ -34,6 +34,8 @@ def main() -> None:
     # Stratify y so we get a balance of fraud and not-fraud in the split
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1, stratify=y)
 
+    
+
     # Scaling with each method, preserving unscaled values for comparison
     standard_scaler = StandardScaler()
     minmax_scaler = MinMaxScaler()
