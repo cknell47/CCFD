@@ -1,0 +1,5 @@
+Cross-Validation Score of Best Model Found:  0.12314225053078555
+Best Parameters Found:  {'alpha': 0.001, 'learning_rate': 'optimal', 'loss': 'squared_hinge', 'max_iter': 1000, 'penalty': 'l2'}
+
+Cross-Validation Score of Best Model Found:  0.9088693903082848
+Best Parameters Found:  {'alpha': 0.001, 'learning_rate': 'optimal', 'loss': 'squared_hinge', 'max_iter': 1000, 'penalty': 'l1'}
